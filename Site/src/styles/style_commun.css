@@ -1179,3 +1179,186 @@ footer .newsletter i {
 .copyright li a:hover {
     text-decoration: underline;
 }
+
+/* Style page service */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/******* Navbar *******/
+
+#logo{
+    display: flex;
+    height: 60px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Ajout de la suppression du soulignement des liens */
+}
+
+
+.navbar{
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(108deg, rgba(5,185,200,1) 16%, rgba(0,92,168,1) 50%, rgba(12,14,107,1) 95%);
+    width: 100%;
+    opacity: 1;
+    text-align: center;
+    padding: 10px 13px; /* Regroupement de padding-top et padding-bottom */
+    z-index: 100;
+
+}
+
+.navbar a{
+    font-size: 1.2em;
+    margin: 0 20px 0 20px; /* Réduction de la marge */
+    display: inline-block;
+    padding: 14px 16px;
+    padding-left: 6em;
+}
+
+.navbar a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff; /* Couleur de la ligne */
+    transition: transform 0.3s ease; /* Animation de la largeur */
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+.navbar a.active::after {
+    width: 100%; /* Ligne à 100% de la largeur */
+    transform: scaleX(1); /* L'élément se développe à 100% de la largeur */
+}
+
+/* Animation au survol */
+.navbar a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+/******* Titre *******/
+/*.title{
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 50%;
+    border-radius: 100%;
+}*/
+
+.title{ 
+    padding-top: 70px;
+    /*background: url(service.webp) no-repeat fixed 50% 50%;*/
+    background: url(Blablamoche.png) no-repeat fixed 10% 10%;
+    background-size: cover;
+    height: 500px;
+    border-bottom: solid 2px #252525;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+
+/******* Page *******/
+
+main{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2{
+    margin-bottom: 2%;
+}
+
+main img{
+    height: 250px;
+    margin: 2%;
+    border-radius: 30px;
+    box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    border: solid 1px black;
+    width: 100%;
+}
+
+.texte{
+    text-align: justify;
+    padding: 2em;
+}
+
+section a{
+    color: blue;
+}
+
+section a:hover{
+    color: rgb(0, 204, 255);
+}
+
+.texte .all_logo{
+    display:flex;
+}
+
+.all_logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.all_logo a{
+    display: inline-block;
+    margin-left: 10px;
+    width: 9%;
+}
+.all_logo img{
+    height: 100px;
+}
+
+.all_logo a:hover{
+    animation: respire 2s ease-in-out infinite;
+}
+
+@keyframes respire {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
