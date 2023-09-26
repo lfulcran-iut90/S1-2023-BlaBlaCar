@@ -1262,7 +1262,7 @@ a {
 .title{ 
     padding-top: 70px;
     /*background: url(service.webp) no-repeat fixed 50% 50%;*/
-    background: url(Blablamoche.png) no-repeat fixed 10% 10%;
+    background: url(./src/images/Blablamoche.png) no-repeat fixed 10% 10%;
     background-size: cover;
     height: 500px;
     border-bottom: solid 2px #252525;
