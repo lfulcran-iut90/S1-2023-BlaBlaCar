@@ -16,6 +16,6 @@ FULCRAND Lucas -> Activités<br>
 FUMEY Axel -> Statistiques<br>
 MERAT Leslie -> Histoire<br>
 
-# Dossier "[Site](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/Site)"
+## Dossier "Site"
 
-Dans ce dossier, vous retrouverez les pages HTML, un dossier "src" contenant 3 dossiers : images, styles et script.
+Dans ce [dossier](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/Site), vous retrouverez les pages HTML, un dossier "src" contenant 3 dossiers : images, styles et script.
