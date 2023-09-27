@@ -20,7 +20,7 @@ a {
     text-decoration: none; /* Ajout de la suppression du soulignement des liens */
 }
 
-
+/*
 .navbar{
     display: flex;
     overflow: hidden;
@@ -28,14 +28,14 @@ a {
     width: 100%;
     opacity: 1;
     text-align: center;
-    padding: 10px 13px; /* Regroupement de padding-top et padding-bottom */
+    padding: 10px 13px; 
     z-index: 100;
 
 }
 
 .navbar a{
     font-size: 1.2em;
-    margin: 0 20px 0 20px; /* Réduction de la marge */
+    margin: 0 20px 0 20px; 
     display: inline-block;
     padding: 14px 16px;
     padding-left: 6em;
@@ -46,22 +46,22 @@ a {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #fff; /* Couleur de la ligne */
-    transition: transform 0.3s ease; /* Animation de la largeur */
+    background-color: #fff; 
+    transition: transform 0.3s ease; 
     transform-origin: right;
     transform: scaleX(0);
 }
 
 .navbar a.active::after {
-    width: 100%; /* Ligne à 100% de la largeur */
-    transform: scaleX(1); /* L'élément se développe à 100% de la largeur */
+    width: 100%; 
+    transform: scaleX(1); 
 }
 
-/* Animation au survol */
+
 .navbar a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
-}
+}*/
 
 
 /******* Titre *******/
@@ -76,9 +76,8 @@ a {
 }*/
 
 .title{ 
-    padding-top: 70px;
     /*background: url(service.webp) no-repeat fixed 50% 50%;*/
-    background: url(../images/Blablamoche.png) no-repeat fixed 10% 10%;
+    background: url(Blablamoche.png) no-repeat fixed 0% 10%;
     background-size: cover;
     height: 500px;
     border-bottom: solid 2px #252525;
