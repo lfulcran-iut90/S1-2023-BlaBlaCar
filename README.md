@@ -1,7 +1,5 @@
 # BlaBlaCar
 
-## BlaBlaCar
-
 [S1-2023-BlaBlaCar](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar)
 
 ## Membres du groupe :
