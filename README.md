@@ -11,7 +11,7 @@ Etudiant 4 : [FUMEY Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_
 
 ## Auteur des pages
 
-FROEHLY Jean-Baptiste -> Accueil(https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html) + Economie
+FROEHLY Jean-Baptiste -> [Accueil](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html) + Economie
 FULCRAND Lucas -> Activités
 FUMEY Axel -> Statistiques
 MERAT Leslie -> Histoire
