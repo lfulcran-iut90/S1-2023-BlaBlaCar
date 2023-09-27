@@ -1,6 +1,6 @@
 # BlaBlaCar : Présentation du projet
 
-Bienvenue sur notre GitHub, nous sommes le groupe "VroumVroumGo" (pour ne pas voler le nom officiel) et sur notre site, nous présentons l'entreprise BlaBlaCar. Le site sera composé de son histoire, ses activités, son économie ainsi que ses statistiques. Vous pourrez facilement accéder à ses différentes pages sur la page d'accueil.
+Bienvenue sur notre GitHub, nous sommes le groupe "<strong>VroumVroumGo</strong>" (pour ne pas voler le nom officiel) et sur notre site, nous présentons l'entreprise BlaBlaCar. Le site sera composé de son histoire, ses activités, son économie ainsi que ses statistiques. Vous pourrez facilement accéder à ses différentes pages sur la page d'accueil.
 
 ## Membres du groupe N°10 :
 
