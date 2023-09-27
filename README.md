@@ -18,4 +18,4 @@ MERAT Leslie -> Histoire<br>
 
 ## Dossier "Site"
 
-Dans ce [dossier](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/Site), vous retrouverez les pages HTML, un dossier "src" contenant 3 dossiers : images, styles et script.
+Dans ce [dossier](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/Site), vous retrouverez les pages HTML, un dossier "src" contenant 3 dossiers : images, styles, contenant les fichiers CSS des pages ainsi qu' un fichier CSS commun contenant la template de la navbar et du footer, ainsi qu'un dossier script contenant les différentes animations.
