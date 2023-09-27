@@ -70,10 +70,6 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 
 header {
     height: calc(100vh - 22px); 
-    background: url("https://cdn.blablacar.com/kairos/assets/images/carpool_blablabus_small-aacb46bde375e3196927.svg") fixed bottom;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     padding: 20px 70px;
 }
 
