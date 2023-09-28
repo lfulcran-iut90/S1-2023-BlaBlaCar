@@ -3,11 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Historique</title>
+    <meta name="description" content="BlaBlaBla zbiiii">
+    <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="https://assets.stickpng.com/images/5845e6b1fb0b0755fa99d7f0.png" type="image/x-icon">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!-- Anim et autres  -->
+    <link rel="stylesheet" href="./src/styles/style_commun.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+    :root {
+  --primary: rgb(46,209,255);
+  --primary-gradient: linear-gradient(45deg, #00234b 0%, rgb(46, 209, 255) 100%);
+}
+.section-header {
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgb(0, 0, 0);
+}
+.section-header hr {
+  border: 1px solid #000000;
+  width: 56px;
+}
+.bg-gradient_solid {
+  background-color:white;
+  color: #000000;
+  padding: 48px 0;
+}
+.steps {
+  position: relative;
+  margin-top: 32px;
+}
+.steps::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.4;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.steps .content p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.steps .content h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.steps-container {
+  position: relative;
+  background-color: inherit;
+  width: calc(50% + 32px);
+}
+
+.steps-container .content {
+  padding: 32px;
+  background: var(--primary-gradient);
+  position: relative;
+  border-radius: 0px 0px 80px 0px;
+  box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+}
+
+.steps .steps-container:nth-child(even) {
+  left: calc(50% - 32px);
+  flex-direction: row-reverse;
+}
+
+.steps-container {
+  display: flex;
+}
+
+.steps .steps-container .date {
+  font-weight: 900;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  width: 62px;
+  height: 62px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 777;
+}
+
+.step-line {
+  width: 40px;
+  background-color: #000000;
+  height: 1px;
+  margin-top: 31px;
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .steps::after {
+    left: 32px;
+  }
+  .steps-container {
+    left: 0;
+    flex-direction: row-reverse;
+    width: auto;
+    margin-bottom: 16px;
+  }
+  .steps .steps-container:nth-child(even) {
+    left: 0;
+  }
+}
+    header {
+        background : none;
+        background-color: white;
+        height: 400px
+    }
+
+    header .navigation-bar a {
+        color : black;
+    }
+    h2 {
+      color: #ffffff;
+    }
+
+    header nav {
+        background-color: white;
+    }
+
+    header nav.active .toggle span {
+        background-color: #000;
+    }
+
+  </style>
 </head>
-<body>
-    <p>C'est l'histoireuuuuu</p>
-    <br>
-    <a href="./index.html">Lien home</a>
+<body class="stop-scroll unselectable">
+  <div class="loader-wrap">
+      <div class="loader">
+          <span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span>
+      </div>
+  </div>
+  <!--Fin loader-->
+
+ <!--Debut Header-->
+  <header>
+      <nav>
+          <div class="logo">
+              <a href="index.html"><img src="https://theme.zdassets.com/theme_assets/9203332/9014492f0fd7985637e001a5c9c4bde80b35d8a0.png" alt="Logo"></a>
+          </div>
+          <div class="toggle">
+              <span class="first"></span>
+              <span class="middle"></span>
+              <span class="last"></span>
+          </div>
+          <div class="navigation-bar">
+              <ul>
+                  <li class="active"><a href="index.html">Accueil<span class="underline"></span></a></li>
+                  <li><a href="./histoire.html">L'Histoire<span class="underline"></span></a></li>
+                  <li><a href="#">Activités<span class="underline"></span></a></li>
+                  <li><a href="#">Statistiques<span class="underline"></span></a></li>
+                  <li><a href="#">Economie<span class="underline"></span></a></li>
+              </ul>
+          </div>
+      </nav>
+      <div style="text-align: center;">
+          <img src="https://img.freepik.com/vecteurs-libre/personnages-humains-vieille-caleche-transport-terrestre-voiture-ancienne-dessin-anime-moteur-combustion_1284-31101.jpg" alt="" style="width: 600px;">
+      </div>
+      
+  </header>
+  <!--Fin Header-->
+
+  <div class="about-us">
+    <div class="text">
+      <div class="bg-gradient_solid">
+        <div class="container">
+          <div class="section-header">
+            <h2>Notre histoire</h2>
+            <hr>
+          </div>
+          <div class="steps">
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+            <div class="steps-container">
+              <div class="content">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+              <i class="step-line"></i>
+              <div class="date">annnée</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <a href="./index.html">Lien home</a>
+  <!--Debut Footer-->
+  <footer>
+      <div class="text">
+          <h2>A propos de ....</h2>
+          <div><i class="fas fa-car" style="color:#2ed1ff"></i></div>
+          <p>Ben la faudra compléter</p>
+      </div>
+      <div class="contact-container">
+        <div class="social-media">
+            <h3>Retrouvez nous</h3>
+            <div class="links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+          <div class="newsletter">
+            <h3>Nous contacter</h3>
+
+            <!-- c'est pour faire joli ça marche ap-->
+              <form method="">
+                  <input type="email" name="email" placeholder="Type Your Email">
+                  <i class="fas fa-envelope"></i>
+              </form>
+          </div>
+      </div>
+  </footer>
+<!--Fin Footer-->
+
+<!--Debut CopyRight-->
+  <div class="copyright">
+      <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#262526" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <i class="fas fa-angle-double-up arrow-up"></i>
+      <ul class="info">
+          <li>&copy; Nous 2023</li>
+          <li>BUT1 S1 Belfort</li>
+          <li>Nos noms ?</li>
+          <li>Pte ici le lien du <a href="#">GitHub</a> serait pas mal</li>
+      </ul>
+  </div>
+  <!--Fin Copy-Right-->
+
+  <!-- libs js -->
+  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="./src/scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+
 </body>
 </html>
