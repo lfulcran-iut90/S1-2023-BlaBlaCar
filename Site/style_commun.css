@@ -1,0 +1,284 @@
+/* Feuille de style partie commune */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 12px;
+    padding-right: 7px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+p, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
+    font-family: Cabin, sans-serif;
+}
+header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
+    color: #0098c2;
+}
+header nav .navigation-bar .underline, .contact .form form button:hover, .contact .text i:hover {
+    background-color: #00aaff;
+}
+
+header .text .button button:hover {
+    font-size: 14px;
+    transition: border 2s .2s
+    , font-size 1s .2s;
+}
+
+header .navigation-bar ul li, header .text, .about-us .text, .economie .text, .quadrillage .box-model, .quadrillage .text, .fixed-image .text, footer, .copyright, .contact .text i {
+    text-align: center;
+}
+header nav, header .navigation-bar ul, .about-us, .economie, .about-us .image-container, .economie .image-container, .quadrillage, .quadrillage .quadrillage-image-container, footer .contact-container, .copyright ul, .contact {
+    display: flex;
+}
+header nav .toggle, header nav .toggle span, header .navigation-bar, header .navigation-bar ul, .quadrillage .box-model .close, footer .social-media .links a, .copyright .CTA li a {
+    transition: .3s;
+}
+header, header nav .toggle span, header .navigation-bar a, header .text, header .text .arrow .left, header .text .arrow .right, .partie1, .quadrillage .box-image-container, .fixed-image .text, .copyright, .copyright .arrow-up {
+    position: relative;
+}
+header nav .toggle, header .navigation-bar .underline, header .text .arrow .left:after, header .text .arrow .right:after, header .svg-down, header .arrow-down, .partie1 .text, .quadrillage .box-model .close, .quadrillage .box-model .arrow .arrow-right,.quadrillage .box-model .arrow .arrow-left, .quadrillage .box-image-container .box-image, .copyright .svg-up {
+    position: absolute;
+}
+.partie1 .text, .fixed-image .text, .quadrillage .box-image-container, .quadrillage .box-image-container .box-image {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header nav, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, .quadrillage .box-model, .quadrillage .box-image-container, .quadrillage .box-image-container .box-image {
+    width: 100%;
+}
+button, .dots > div, header nav .toggle, header .arrow-down, .quadrillage .box-model .close, .quadrillage .box-model .arrow .arrow-right,.quadrillage .box-model .arrow .arrow-left, .quadrillage .quadrillage-image-container .image img, footer .newsletter i, .copyright .arrow-up {
+    cursor: pointer;
+}
+.dots .active, header nav.active, header nav.active .toggle.active span, header nav .toggle span, header .navigation-bar .underline, header .text .arrow .left, header .text .arrow .right, header .text .button button, .contact form button {
+    background-color: #fff;
+}
+h1, h3, header .navigation-bar a, header .text span, .quadrillage .box-model .close:hover, footer .text h2, footer .text p, footer .social-media .links a, .contact .text i, .contact .form form button {
+    color: #fff;
+}
+header nav, header .navigation-bar.show, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, header .text .arrow .left:after, .quadrillage .box-model, .copyright .arrow-up {
+    left: 0;
+}
+header .text .arrow .left:after, header .text .arrow .right:after, header .text span, footer .social-media .links a, footer .newsletter i, .copyright .arrow-up, .contact .text i, .contact .form form label {
+    display: inline-block;
+}
+
+/*Fin Mutual*/
+
+header {
+    height: calc(100vh - 22px); /* 22px = hauteur de la barre de défilement */
+    padding: 20px 70px;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    padding: 36px 36px 20px;
+    z-index: 20;
+}
+header nav .toggle {
+    display: none;
+    top: 26px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 21;
+}
+header nav .toggle:focus {
+    outline: none;
+}
+header nav.active .toggle span {
+    background-color: #000;
+}
+header nav .toggle.active {
+    left: 32%;
+}
+header nav .toggle.active .first {
+    top: 16px;
+    transform: rotate(-45deg);
+}
+header nav .toggle.active .last {
+    top: 0;
+    transform: rotate(45deg);
+}
+header nav .toggle .hide {
+    transition: 0s;
+    visibility: hidden;
+}
+header nav .toggle span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 40px;
+}
+header nav .toggle span:not(:last-of-type) {
+    margin-bottom: 6px;
+}
+header nav .logo {
+    flex-basis: 56%;
+    padding-left: 50px;
+
+}
+
+.logo img {
+    max-width:50px;
+}
+header .navigation-bar.show {
+    width: 40%;
+}
+header .navigation-bar.show a {
+    color: #ccc !important;
+}
+header .navigation-bar.show a:hover {
+    color: #fff !important;
+}
+header .navigation-bar ul li {
+    flex: 1;
+    padding: 0 10px;
+}
+header .navigation-bar a {
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 16px;
+}
+header nav.active .navigation-bar a {
+    color: #000;
+}
+
+/* Animation underline */
+header .navigation-bar .underline {
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: -4px;
+    transition: all .3s;
+    display: block;
+}
+
+/*Debut Footer*/
+footer {
+    background-color: #121212;
+    padding: 60px 20px;
+
+    /* Réduire sa hauteur */
+    height: 300px;
+}
+footer .text {
+    max-width: 500px;
+    margin: auto;
+}
+footer .text h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1.9px;
+    margin-bottom: 25px;
+}
+footer .text .fa-asterisk {
+    font-size: 12px;
+}
+footer .text p {
+    line-height: 27px;
+}
+footer .contact-container {
+    padding: 40px 0;
+    max-width: 1000px;
+    margin: auto;
+}
+footer .contact-container > div {
+    flex: 1;
+}
+footer .contact-container h3 {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+}
+footer .social-media .links a {
+    margin: 0 10px;
+    font-size: 25px;
+}
+footer .newsletter input {
+    padding: 10px;
+    width: 270px;
+    background-color: #eee;
+    border: none;
+    margin-left: -15px;
+}
+footer .newsletter i {
+    margin-left: -40px;
+    vertical-align: middle;
+    font-size: 21px;
+}
+.copyright {
+    padding: 15px 40px 30px;
+    background-color: #262526;
+}
+.copyright .svg-up {
+    top: 0;
+    left: 50%;
+    margin-left: -96px;
+    margin-top: -50px;
+}
+.copyright .arrow-up {
+    width: 40px;
+    height: 30px;
+    top: -45px;
+    color: #fff;
+    line-height: 1.9
+}
+.copyright ul {
+    justify-content: center;
+}
+.copyright li {
+    color: #919191;
+    font-size: 14px;
+}
+.copyright li:not(:last-of-type):after {
+    content: '•';
+    margin: 10px;
+}
+.copyright .CTA {
+    margin-top: 25px;
+}
+.copyright .CTA li a {
+    color: #919191;
+}
+
+/*Fin Footer*/
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2ed1ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #009eca;
+    border: none;
+}
+
+
+/* Optionnel mais par soucis de particit&é */
+/* .unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} */
