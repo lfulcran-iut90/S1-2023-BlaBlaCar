@@ -76,7 +76,7 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 /*Fin Mutual*/
 
 header {
-    height: calc(100vh - 22px); /* 22px = hauteur de la barre de défilement */
+    /* height: calc(100vh - 22px); /* 22px = hauteur de la barre de défilement */
     padding: 20px 70px;
 }
 
