@@ -21,10 +21,10 @@ p, input, header .navigation-bar a, .copyright li, .contact .form form label, .c
     font-family: Cabin, sans-serif;
 }
 header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
-    color: #0098c2;
+    color: #4231AA;
 }
 header nav .navigation-bar .underline, .contact .form form button:hover, .contact .text i:hover {
-    background-color: #00aaff;
+    background-color: #5B4CBA;
 }
 
 header .text .button button:hover {
@@ -264,11 +264,11 @@ footer .newsletter i {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2ed1ff;
+    background: #6B28A6;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #009eca;
+    background: #8043B6;
     border: none;
 }
 

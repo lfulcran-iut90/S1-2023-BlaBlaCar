@@ -60,15 +60,15 @@ p {
 p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
     font-family: Cabin, sans-serif;
 }
-.fa-asterisk, .a-CTA, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
-    color: #0098c2;
+.fa-circle, .a-CTA, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
+    color: #4231AA;
 }
 header nav .navigation-bar .underline, .contact .form form button:hover, .contact .text i:hover {
-    background-color: #00aaff;
+    background-color: #5B4CBA;
 }
 
 h2 {
-    color : #0098c2;
+    color : #6B28A6;
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 }
 
 .a-CTA:hover {
-    border-bottom: 2px solid #2ed1ff;
+    border-bottom: 2px solid #8B28A6;
 }
 
 
@@ -272,7 +272,7 @@ header .text .leX h1 {
 }
 
 header .text h1 {
-    color : black;
+    color : #295CA2;
     text-shadow: 0 0 10px #2d333998;
 }
 
@@ -686,11 +686,11 @@ footer .newsletter i {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2ed1ff;
+    background: #6B28A6;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #009eca;
+    background: #8043B6;
     border: none;
 }
 
