@@ -77,9 +77,11 @@ h3 {
 }
 
 header .text .button button:hover {
-    font-size: 14px;
-    transition: border 2s .2s
-    , font-size 1s .2s;
+    background-color: transparent;
+    color : #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    transition: all .3s;
 }
 
 header .navigation-bar ul li, header .text, .about-us .text, .economie .text, .quadrillage .box-model, .quadrillage .text, .fixed-image .text, footer, .copyright, .contact .text i {
