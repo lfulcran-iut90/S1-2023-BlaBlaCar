@@ -1,0 +1,68 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading { 
+    /*background: url(service.webp) no-repeat fixed 50% 50%;*/
+    background: url(https://www.entreprendre.fr/wp-content/uploads/AdobeStock_380790740_Editorial_Use_Only.jpeg) no-repeat fixed 5% -400px;
+    background-size: cover;
+    filter: blur(10px);
+    height: 400px;
+    border-bottom: solid 1px whitesmoke;
+    z-index: -1;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/******* Page *******/
+
+main{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+strong {color : #295CA2;}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2{
+    margin-bottom: 2%;
+    color : #6B28A6;
+}
+
+main img{
+    height: 250px;
+    margin: 2%;
+    border-radius: 30px;
+    box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    border: solid 1px #8B28A6;
+    width: 100%;
+}
+
+.texte{
+    text-align: justify;
+    padding: 2em;
+}
+
