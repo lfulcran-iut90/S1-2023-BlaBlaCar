@@ -9,7 +9,7 @@
 - [MERAT Leslie](mailto:leslie.merat@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référente du groupe)
 - [FROEHLY Jean-Baptiste](mailto:jean-baptiste.froehly@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 - [FULCRAND Lucas](mailto:lucas.fulcrand@edu.univ-fcomte.fr?subject=SAE_1_05_06)
-- [FUMEY-JEAN JEAN Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+- [FUMEY JEANJEAN Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 ## Présentation 
 
@@ -54,7 +54,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Statistiques
 
-**Auteur : FUMEY-JEAN JEAN Axel**
+**Auteur : FUMEY JEANJEAN Axel**
 
 [Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fstatistiques.html)
 
@@ -78,28 +78,31 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Recherches d'informations
 
-- Merat Leslie
+- MERAT Leslie
 - FROEHLY Jean-Baptiste
 - FULCRAND Lucas
-- FUMEY-JEAN JEAN Axel
+- FUMEY JEANJEAN Axel
 
 
 ### Rapport économique
 
-- Merat Leslie
+- MERAT Leslie
 - FROEHLY Jean-Baptiste
 - FULCRAND Lucas
-- FUMEY-JEAN JEAN Axel
+- FUMEY JEANJEAN Axel
 
 ### Développement site
 
 - FROEHLY Jean-Baptiste
   - Page d’accueil
-  - "Template" de page (Navbar/Footer)
   - Page économie
+  - Navbar et Footer
+
 - FULCRAND Lucas
   - Page services
+  
 - MERAT Leslie
   - Page histoire
-- FUMEY-JEAN JEAN Axel
+  
+- FUMEY JEANJEAN Axel
   - Page statistiques
