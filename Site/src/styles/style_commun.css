@@ -19,6 +19,7 @@ li {
     list-style-type: none;
 }
 
+
 p, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
     font-family: "Poppins", sans-serif;
 }
