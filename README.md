@@ -29,6 +29,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ![capture d'écran de la conformité de la page](Site/Docs/capture_index.png)
 
+***
+
 ### Services
 
 **Auteur : FULCRAND Lucas**
@@ -36,6 +38,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 [Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fservices.html)
 
 ![capture d'écran de la conformité de la page](Site/Docs/capture_services.png)
+
+***
 
 ### Histoire
 
@@ -45,6 +49,26 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 
 ![capture d'écran de la conformité de la page](Site/Docs/capture_histoire.png)
+
+***
+
+### Statistiques
+
+**Auteur : FUMEY-JEAN JEAN Axel**
+
+[Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fstatistiques.html)
+
+![capture d'écran de la conformité de la page](Site/Docs/capture_statistiques.png)
+
+***
+
+### Économie
+
+**Auteur : FROEHLY Jean-Baptiste**
+
+[Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Feconomie.html)
+
+![capture d'écran de la conformité de la page](Site/Docs/capture_economique.png)
 
 ## Répartition du travail
 
