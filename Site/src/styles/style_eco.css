@@ -117,3 +117,8 @@ img:hover{
     transition: font-size 1s;
 }
 
+.graph-container {
+    width: 50%;
+    margin: 20px;
+}
+
