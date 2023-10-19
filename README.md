@@ -76,6 +76,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 - MERAT Leslie
 
+***
+
 ### Recherches d'informations
 
 - MERAT Leslie
@@ -83,6 +85,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 - FULCRAND Lucas
 - FUMEY JEANJEAN Axel
 
+***
 
 ### Rapport économique
 
@@ -90,6 +93,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 - FROEHLY Jean-Baptiste
 - FULCRAND Lucas
 - FUMEY JEANJEAN Axel
+
+***
 
 ### Développement site
 
