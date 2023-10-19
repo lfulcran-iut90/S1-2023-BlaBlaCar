@@ -37,8 +37,9 @@ main{
     display: flex;
     flex-direction: column;
 }
-
-strong {color : #295CA2;}
+strong{
+    color: #B40034;
+}
 
 .services{
     display: flex;
@@ -57,7 +58,7 @@ section{
 
 h2{
     margin-bottom: 2%;
-    color : #6B28A6;
+    color: #85007F;
 }
 
 main img{
@@ -68,7 +69,7 @@ main img{
 }
 
 hr{
-    border: solid 1px #8B28A6;
+    border: solid 1px #85007F;
     width: 100%;
 }
 
