@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./src/styles/aos.css" rel="stylesheet">
 
 
     <style>
@@ -89,6 +89,16 @@
                             de la demande de covoiturage.
                         </p>
                 </section>
+                <section>
+                    <h2>Et pour finir, quelques chiffres...</h2>
+                    <p>Montrant l'évolution du chiffre d'affaire de BlaBlaCar. (à noter que celui de 2023 n'est pas encore relevé mais l'objectif
+                        était d'atteindre 30% de croissance organique) <br> Il faut aussi préciser que son chiffre d'affaire représente environ 20% de son volume d'affaires total. </p>
+                    
+                    <div class="graph-container" data-aos="fade-down-left" data-aos-duraton="2000">
+                        <canvas id="myChart" aria-label="chart" role="img"></canvas>
+                        <script src="./src/scripts/chart.js"></script>
+                    </div> 
+                </section>
                 <hr>
                 <p><em>Survoler les images pour plus d'infos</em></p>
                 <section>
@@ -115,11 +125,6 @@
                     </div>
                 </section>
                 <hr>
-                <h1>La va y avoir du graphique si j'ai pas la flemme</h1>
-                <div class="graph-container">
-                    <canvas id="myChart" aria-label="chart" role="img"></canvas>
-                </div> 
-                <script src="./src/scripts/chart.js"></script>
             </div>
         </main>
     </div>
@@ -168,9 +173,9 @@
   <!-- libs js -->
   <script src="./src/scripts/script.js"></script>
   <script src="./src/scripts/aos.js"></script>
+  <script>AOS.init();</script>
   <script src="./src/scripts/chart.js"></script>
   <script src="./src/scripts/graph_eco.js"></script>
-  <script>AOS.init();</script>
 
 </body>
 

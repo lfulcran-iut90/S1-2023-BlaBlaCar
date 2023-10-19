@@ -228,3 +228,4 @@ if (pageTitle.text === "VroumVroumGo - BlaBlaCar") {
     window.addEventListener("click", boxModelFun);
     boxModelArrow.addEventListener("click", boxModelFun);
 }
+
