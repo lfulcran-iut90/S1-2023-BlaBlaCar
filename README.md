@@ -24,7 +24,7 @@ Nos pages sont toutes correctes, en voici les preuves :
 
 ***
 
-# FROEHLY Jean-Baptiste
+### FROEHLY Jean-Baptiste
 
 ![image](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/assets/114138422/25b39c24-e6b9-436c-b15a-352c668b95d2)
 
