@@ -1,6 +1,8 @@
-# BlaBlaCar : Présentation du projet
+# S1-2023-IHM - SAE 1.05-1.06
 
-Bienvenue sur notre GitHub, nous sommes le groupe "<strong>VroumVroumGo</strong>" (pour ne pas voler le nom officiel) et sur notre site, nous présentons l'entreprise BlaBlaCar. Le site sera composé de son histoire, ses activités, son économie ainsi que ses statistiques. Vous pourrez facilement accéder à ses différentes pages via la page [accueil](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html).
+## BlabLaCar
+
+[VroumVroumGo](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html).
 
 ## Membres du groupe N°10 :
 
@@ -9,10 +11,13 @@ Etudiant 2 : [FROEHLY Jean-Baptiste](mailto:jean-baptiste.froehly@edu.univ-fcomt
 Etudiant 3 : [FULCRAND Lucas](mailto:lucas.fulcrand@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Activités  
 Etudiant 4 : [FUMEY Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Statistiques  
 
-## Dossier "Site"
+## Présentation 
 
-Dans ce [dossier](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/Site), vous retrouverez les pages HTML, un dossier "src" contenant 3 dossiers : images, styles, et script contenant repectivement les images,les fichiers CSS des pages ainsi qu' un fichier CSS commun contenant la template de la navbar et du footer, ainsi qu'un dossier script contenant les fichiers javascript.
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise BlaBlaCar et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de BlaBlaCar 
 
+## Choix de conception  
+
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de BlaBlaCar (disponible [ici]((https://www.blablacar.fr/)), une template de "ROSA" (aperçu [ici](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE)) ainsi qu'une autre template sur CodePen, "Bistro café délices"(aperçu [ici](https://www.bistrocafedelices.com)).
 ## Validation
 
 Nos pages sont toutes correctes, en voici les preuves :
