@@ -40,7 +40,7 @@ p {
     line-height: 27px;
 }
 .a-CTA {
-    border-bottom: 2px solid #2ed1ff;
+    border-bottom: 2px solid #B227AB;
     padding-bottom: 4px;
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -60,10 +60,10 @@ p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form l
     font-family: 'Segoe UI', sans-serif;
 }
 .fa-circle, .a-CTA, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
-    color: #4231AA;
+    color: #B227AB;
 }
 header nav .navigation-bar .underline, .contact .form form button:hover, .contact .text i:hover {
-    background-color: #5B4CBA;
+    background-color: #B227AB;
 }
 
 h2 {
@@ -133,7 +133,7 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 }
 
 .a-CTA:hover {
-    border-bottom: 2px solid #8B28A6;
+    border-bottom: 2px solid #B227AB;
 }
 
 
@@ -248,7 +248,7 @@ header .navigation-bar a {
     font-size: 16px;
 }
 header nav.active .navigation-bar a {
-    color: #000;
+    color: #560FAF;
 }
 
 /* Animation underline */
@@ -260,6 +260,7 @@ header .navigation-bar .underline {
     transition: all .3s;
     display: block;
 }
+
 header .text {
     top: 24%;
 }
@@ -273,7 +274,7 @@ header .text .leX h1 {
 }
 
 header .text h1 {
-    color : #295CA2;
+    color : #420a88;
     text-shadow: 0 0 10px #2d333998;
 }
 
@@ -432,9 +433,6 @@ header .arrow-down {
 }
 .quadrillage .text h3 {
     color: #000;;
-}
-.quadrillage .text .fa-asterisk {
-    color: #ff8000;
 }
 /*Fin Quadrillage*/
 
@@ -687,11 +685,11 @@ footer .newsletter i {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6B28A6;
+    background: #420a88;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #8043B6;
+    background: #B227AB;
     border: none;
 }
 
