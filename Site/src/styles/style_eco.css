@@ -98,6 +98,10 @@ img:hover{
     overflow: visible;
 }
 
+.w3c-youre-boring {
+    visibility: hidden;
+}
+
 .test figcaption {
     position: absolute;
     left: 0;
