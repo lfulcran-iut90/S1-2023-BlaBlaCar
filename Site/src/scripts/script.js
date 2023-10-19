@@ -79,10 +79,10 @@ window.onscroll = function() {
         // make navbar fixed & change logo color
         if (window.pageYOffset > headerSection.offsetHeight - 75) {
             nav.classList.add("active");
-            logoImage.src = "https://theme.zdassets.com/theme_assets/9203332/9014492f0fd7985637e001a5c9c4bde80b35d8a0.png";
+            logoImage.src = "./src/images/logo_head_1.png";
         } else {
             nav.classList.remove("active");
-            logoImage.src = "https://static.ada.support/images/c17b0979-dce2-46de-8691-71bf403e7efa.svg";
+            logoImage.src = "./src/images/logo_head_2.svg";
         }
     
         // header welcome fade out and in
