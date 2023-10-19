@@ -2,7 +2,7 @@
 
 ## BlabLaCar
 
-[VroumVroumGo](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html).
+[VroumVroumGo](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html)
 
 ## Membres du groupe N°10 :
 
@@ -13,11 +13,11 @@ Etudiant 4 : [FUMEY Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_
 
 ## Présentation 
 
-Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise BlaBlaCar et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de BlaBlaCar 
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise BlaBlaCar et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de BlaBlaCar.
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de BlaBlaCar (disponible [ici](https://www.blablacar.fr/)), une template de "ROSA" (aperçu [ici](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE)) ainsi qu'une autre template sur CodePen, "Bistro café délices"(aperçu [ici](https://www.bistrocafedelices.com)).
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de BlaBlaCar (disponible [ici](https://www.blablacar.fr/)), une template sur CodePen, "Bistro café délices"(aperçu [ici](https://www.bistrocafedelices.com)) et nous avons pris comme référence la charte de "ROSA", une template également sur CodePen disponible [ici](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE).
 ## Validation
 
 Nos pages sont toutes correctes, en voici les preuves :
