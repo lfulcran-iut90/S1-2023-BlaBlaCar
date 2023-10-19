@@ -58,9 +58,20 @@ section{
     margin-bottom: 2%;
 }
 
-h2{
+.v1 {
     margin-bottom: 2%;
     color : #6B28A6;
+    border-right : 5px solid #6B28A6;
+    margin: 25px;
+    padding : 15px
+}
+
+.v2 {
+    margin-bottom: 2%;
+    color : #6B28A6;
+    border-left : 5px solid #6B28A6;
+    margin : 25px;
+    padding: 15px;
 }
 
 main img{
