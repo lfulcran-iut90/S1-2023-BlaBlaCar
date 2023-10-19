@@ -68,7 +68,7 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de BlaBl
 
 [Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Feconomie.html)
 
-![capture d'écran de la conformité de la page](Site/Docs/capture_economique.png)
+![capture d'écran de la conformité de la page](Site/Docs/capture_economie.png)
 
 ## Répartition du travail
 
