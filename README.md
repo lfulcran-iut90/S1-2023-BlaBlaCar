@@ -17,7 +17,7 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de BlaBlaCar (disponible [ici]((https://www.blablacar.fr/)), une template de "ROSA" (aperçu [ici](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE)) ainsi qu'une autre template sur CodePen, "Bistro café délices"(aperçu [ici](https://www.bistrocafedelices.com)).
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de BlaBlaCar (disponible [ici](https://www.blablacar.fr/)), une template de "ROSA" (aperçu [ici](https://codepen.io/Sir_thirrygolooo/pen/PoXKOrE)) ainsi qu'une autre template sur CodePen, "Bistro café délices"(aperçu [ici](https://www.bistrocafedelices.com)).
 ## Validation
 
 Nos pages sont toutes correctes, en voici les preuves :
