@@ -27,4 +27,6 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Findex.html)
 
+![capture d'écran de la conformité de la page](Site/Docs/capture_index.png)
+
 
