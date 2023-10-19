@@ -37,6 +37,15 @@ links.forEach(link =>
     })
 );
 
+const linkeu = document.querySelectorAll(".links");
+linkeu.forEach(link =>
+    link.addEventListener("click", () => {
+        alert("Les réseaux c'est pour les faibles !");
+    })
+);
+
+
+
 // toggle hamburger quadrillage button
 navToggle.addEventListener("click", () => {
     navToggle.classList.toggle("active");
@@ -214,15 +223,6 @@ if (pageTitle.text === "VroumVroumGo - BlaBlaCar") {
             }
         }
     }
-
-    // An javascript alert on click of elements with class="links"
-    const links = document.querySelectorAll(".links");
-
-    links.forEach(link =>
-        link.addEventListener("click", () => {
-            alert("Ca marche ap on existe pas vraiment :)");
-        })
-    );
 
     window.addEventListener("keydown", boxModelFun);
     window.addEventListener("click", boxModelFun);
