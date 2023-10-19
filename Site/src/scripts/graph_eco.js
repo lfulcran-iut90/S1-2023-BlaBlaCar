@@ -15,5 +15,4 @@ const blaBlaChart = new Chart(blaBlaCanvas, {
       hoverBorderColor: '#000'
     }]
   },
-
 })
