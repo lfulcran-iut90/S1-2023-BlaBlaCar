@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300&display=swap');
 
 /*Debut Global*/
 * {
@@ -29,7 +29,6 @@ h2 {
     margin: 0 0 -55px;
 }
 h1, h3 {
-    font-family: "Source Code Pro", sans-serif;
     font-size: 47px;
     font-weight: bold;
     letter-spacing: 9.4px;
@@ -58,7 +57,7 @@ p {
 /*Debut Mutual*/
 
 p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
-    font-family: Cabin, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 }
 .fa-circle, .a-CTA, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
     color: #4231AA;
@@ -314,7 +313,7 @@ header .text .button button, .contact form button {
     padding: 9px 18px;
     letter-spacing: 2.4px;
     font-size: 12px;
-    font-family: source_sans_problack, sans-serif;
+    font-family: 'Poppins', Courier, monospace, sans-serif;
     border-radius: 3px;
 }
 header .text .button button, .contact form button:focus {
@@ -460,7 +459,7 @@ footer .text {
     margin: auto;
 }
 footer .text h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 19px;
     letter-spacing: 1.9px;
     margin-bottom: 25px;
