@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300&display=swap');
+
 /* Feuille de style partie commune */
 * {
     box-sizing: border-box;
@@ -18,7 +20,7 @@ li {
 }
 
 p, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
-    font-family: Cabin, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
     color: #85007F;
