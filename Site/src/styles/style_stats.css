@@ -37,7 +37,9 @@ main{
     flex-direction: column;
 }
 
-strong {color : #295CA2;}
+strong{
+    color: #b40034;
+}
 
 .stats{
     display: flex;
