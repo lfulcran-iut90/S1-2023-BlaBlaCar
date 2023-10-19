@@ -264,14 +264,13 @@ footer .newsletter i {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6B28A6;
+    background: #420a88;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #8043B6;
+    background: #B227AB;
     border: none;
 }
-
 
 /* Optionnel mais par soucis de particit&é */
 /* .unselectable {
