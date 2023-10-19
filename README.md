@@ -111,3 +111,8 @@ Pour la conception du site, nous nous sommes inspirés du site officiel de BlaBl
   
 **FUMEY JEANJEAN Axel** :
   - Page statistiques
+
+## Graphique de tout les commits du projet 
+
+![capture d'écran du graphique des commits](Site/Docs/graphe_commits_all.png)
+
