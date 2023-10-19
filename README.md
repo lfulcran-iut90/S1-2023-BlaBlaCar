@@ -6,10 +6,10 @@
 
 ## Membres du groupe N°10 :
 
-[MERAT Leslie](mailto:leslie.merat@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référentdu groupe) -> Histoire  
-[FROEHLY Jean-Baptiste](mailto:jean-baptiste.froehly@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Accueil + Economie  
-[FULCRAND Lucas](mailto:lucas.fulcrand@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Activités  
-[FUMEY-JEAN JEAN Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Statistiques  
+[MERAT Leslie](mailto:leslie.merat@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référente du groupe)
+[FROEHLY Jean-Baptiste](mailto:jean-baptiste.froehly@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+[FULCRAND Lucas](mailto:lucas.fulcrand@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+[FUMEY-JEAN JEAN Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 ## Présentation 
 
