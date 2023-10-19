@@ -22,6 +22,12 @@ header nav.active .toggle span {
 
 /* Fin corrections */
 
+hr {
+    border: 1px solid #560FAF;
+    width: 50%;
+    margin: 2% auto;
+}
+
 .heading { 
     background: url(https://www.entreprendre.fr/wp-content/uploads/AdobeStock_380790740_Editorial_Use_Only.jpeg) no-repeat fixed 5% -400px;
     background-size: cover;
@@ -67,7 +73,7 @@ h2 {
 }
 
 main img{
-    height: 250px;
+    height: 300px;
     margin: 2%;
     border-radius: 30px;
     box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
