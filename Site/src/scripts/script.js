@@ -40,7 +40,7 @@ links.forEach(link =>
 const linkeu = document.querySelectorAll(".links");
 linkeu.forEach(link =>
     link.addEventListener("click", () => {
-        alert("Tututu on ne fait pas de pubs aux réseaux nous juste BlaBlaCar");
+        alert("Non ne faites pas ça les réseaux nous manipulent ! 😱😨");
     })
 );
 
