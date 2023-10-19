@@ -1,4 +1,4 @@
-# S1-2023-IHM - SAE 1.05-1.06
+# S1-2023-BlaBlaCar - SAE 1.05-1.06
 
 ## BlabLaCar
 
