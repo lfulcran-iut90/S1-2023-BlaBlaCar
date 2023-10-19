@@ -9,7 +9,7 @@
 [MERAT Leslie](mailto:leslie.merat@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référentdu groupe) -> Histoire  
 [FROEHLY Jean-Baptiste](mailto:jean-baptiste.froehly@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Accueil + Economie  
 [FULCRAND Lucas](mailto:lucas.fulcrand@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Activités  
-[FUMEY Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Statistiques  
+[FUMEY-JEAN JEAN Axel](mailto:axel.fumey@edu.univ-fcomte.fr?subject=SAE_1_05_06) -> Statistiques  
 
 ## Présentation 
 
@@ -46,5 +46,36 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ![capture d'écran de la conformité de la page](Site/Docs/capture_histoire.png)
 
+## Répartition du travail
+
+### Planification - Diagramme de GANTT
+
+- MERAT Leslie
+
+### Recherches d'informations
+
+- Merat Leslie
+- FROEHLY Jean-Baptiste
+- FULCRAND Lucas
+- FUMEY-JEAN JEAN Axel
 
 
+### Rapport économique
+
+- Merat Leslie
+- FROEHLY Jean-Baptiste
+- FULCRAND Lucas
+- FUMEY-JEAN JEAN Axel
+
+### Développement site
+
+- FROEHLY Jean-Baptiste
+  - Page d’accueil
+  - "Template" de page (Navbar/Footer)
+  - Page économie
+- FULCRAND Lucas
+  - Page services
+- MERAT Leslie
+  - Page histoire
+- FUMEY-JEAN JEAN Axel
+  - Page statistiques
