@@ -74,11 +74,6 @@ main img{
     box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
 }
 
-hr{
-    border: solid 1px #8B28A6;
-    width: 100%;
-}
-
 .texte{
     text-align: justify;
     padding: 2em;
