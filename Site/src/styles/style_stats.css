@@ -68,14 +68,14 @@ h2{
 }
 
 main img{
-    height: 250px;
+    height: 350px;
     margin: 2%;
     border-radius: 30px;
-    box-shadow: -10px 15px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: -10px 15px 50px rgba(0, 0, 0, 0.5);
 }
 
 .90{
-    margin-right: 100px;
+    margin-right: 400px;
 }
 
 hr{
