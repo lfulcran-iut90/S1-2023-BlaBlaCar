@@ -21,10 +21,10 @@ p, input, header .navigation-bar a, .copyright li, .contact .form form label, .c
     font-family: Cabin, sans-serif;
 }
 header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
-    color: #4231AA;
+    color: #85007F;
 }
 header nav .navigation-bar .underline, .contact .form form button:hover, .contact .text i:hover {
-    background-color: #85007F;
+    background-color: #AC00A4;
 }
 
 header .text .button button:hover {
