@@ -1,6 +1,6 @@
 # S1-2023-BlaBlaCar - SAE 1.05-1.06
 
-## BlabLaCar
+## BlaBlaCar
 
 [VroumVroumGo](https://lfulcran-iut90.github.io/S1-2023-BlaBlaCar/Site/index.html)
 
