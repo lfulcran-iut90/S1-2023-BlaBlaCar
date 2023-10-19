@@ -78,11 +78,12 @@ hr{
 }
 
 section a{
-    color: blue;
+    color: #420a88;
+    text-decoration: none;
 }
 
 section a:hover{
-    color: rgb(0, 204, 255);
+    color: #B227AB;
 }
 
 .texte .all_logo{
