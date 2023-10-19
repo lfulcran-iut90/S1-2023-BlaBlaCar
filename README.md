@@ -17,8 +17,8 @@ Dans ce [dossier](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/tree/main/
 
 Nos pages sont toutes correctes, en voici les preuves :
 
-MERAT Leslie : [Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fhistoire.html)
+### MERAT Leslie
 
 ![image](https://github.com/lfulcran-iut90/S1-2023-BlaBlaCar/assets/114138422/0e9759c2-28ed-4bea-9413-9a31461b9fbf)
+[Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fhistoire.html)
 
-***
