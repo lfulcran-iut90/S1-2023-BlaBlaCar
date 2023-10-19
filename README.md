@@ -98,16 +98,16 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Développement site
 
-- FROEHLY Jean-Baptiste
+**FROEHLY Jean-Baptiste**
   - Page d’accueil
   - Page économie
   - Navbar et Footer
 
-- FULCRAND Lucas
+**FULCRAND Lucas**
   - Page services
   
-- MERAT Leslie
+**MERAT Leslie**
   - Page histoire
   
-- FUMEY JEANJEAN Axel
+**FUMEY JEANJEAN Axel**
   - Page statistiques
