@@ -25,7 +25,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : FROEHLY Jean-Baptiste**
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Findex.html)
+[Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Findex.html)
 
 ![capture d'écran de la conformité de la page](Site/Docs/capture_index.png)
 
@@ -33,8 +33,18 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : FULCRAND Lucas**
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fservices.html)
+[Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fservices.html)
 
+![capture d'écran de la conformité de la page](Site/Docs/capture_services.png)
+
+### Histoire
+
+** Auteur : MERAT Leslie**
+
+[Vérification W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flfulcran-iut90.github.io%2FS1-2023-BlaBlaCar%2FSite%2Fhistoire.html)
+
+
+![capture d'écran de la conformité de la page](Site/Docs/capture_histoire.png)
 
 
 
