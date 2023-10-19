@@ -57,7 +57,7 @@ p {
 
 /*Debut Mutual*/
 
-p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
+p, .a-CTA, input, .copyright li, .contact .form form label, .contact .form form button {
     font-family: 'Segoe UI', sans-serif;
 }
 .fa-circle, .a-CTA, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
@@ -315,9 +315,14 @@ header .text .button button, .contact form button {
     padding: 9px 18px;
     letter-spacing: 2.4px;
     font-size: 12px;
-    font-family: 'Poppins', Courier, monospace, sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 3px;
 }
+
+header .navigation-bar a {
+    font-family: 'Poppins', sans-serif;
+}
+
 header .text .button button, .contact form button:focus {
     outline: none;
 }
