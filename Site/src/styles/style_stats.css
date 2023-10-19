@@ -17,7 +17,7 @@ header nav.active .toggle span {
 }
 
 .heading { 
-    background: url(https://ampnet.be/sites/default/files/images/02_UITGEVERS/STATS/stats.png) no-repeat fixed 5% -400px;
+    background: url(../images/fond_stats.png) no-repeat fixed 5% -400px;
     background-size: cover;
     height: 550px;
 }
